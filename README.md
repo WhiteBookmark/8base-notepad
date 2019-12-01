@@ -1,8 +1,8 @@
 # 🎱 8base + VueJS Starter App 🏎️
 
-This project is a starter app for getting started with VueJS + 8base! The app is pre-configured to use 8base user authentication and the GraphQL API, so you can immediately hop into building something awesome. 
+This project is a starter app for getting started with VueJS + 8base! The app is pre-configured to use 8base user authentication and the GraphQL API, so you can immediately hop into building something awesome.
 
-You'll need to create an [8base workspace](https://app.8base.com) and [Authentication Profile](https://docs.8base.com/8base-console/authentication#8base-authentication). Once that's done... ALL you need to do is set some enironment variables!  
+You'll need to create an [8base workspace](https://app.8base.com) and [Authentication Profile](https://docs.8base.com/8base-console/authentication#8base-authentication). Once that's done... ALL you need to do is set some enironment variables!
 
 ### Running the App
 To run the app, you're going to need to first install its dependencies.
@@ -28,7 +28,7 @@ VUE_APP_AUTH_DOMAIN=<YOUR_AUTH_DOMAIN>
 npm run serve
 ```
 
-3. Visit [http://localhost:8080](http://localhost:8080) to test it out.
+3. Visit [http://localhost:3000](http://localhost:3000) to test it out.
 
 ### TL;DR
 There are several awesome things that have been done in this application to help you get started. Let's take a look at them:
