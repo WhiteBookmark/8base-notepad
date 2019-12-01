@@ -2,18 +2,21 @@
  * The state manager should manage communication
  * with the API for query and subscriptions.
  */
-import Vue from "vue";
-import Vuex from "vuex";
+import Vue from 'vue';
+import Vuex from 'vuex';
 
-import session from "./modules/session";
+import session from './modules/session';
+import defaultStates from '@/store/states/default';
+import defaultMutations from '@/store/mutations/default';
 
 Vue.use(Vuex);
 /**
  * Exports configured Vuex store
  */
 export default new Vuex.Store({
-  modules: {
-    session
-  }
+	state: defaultStates,
+	mutations: defaultMutations,
+	modules: {
+		session,
+	},
 });
-

@@ -1,31 +1,27 @@
-<style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-}
-</style>
-
 <template>
-  <div id="app">
-    <Navbar />
-    
-    <hr>
+	<v-app>
+		<vuetify-navbar></vuetify-navbar>
 
-    <router-view />
-  </div>
+		<hr />
+
+		<v-content>
+			<router-view />
+		</v-content>
+
+		<v-footer color="indigo" app>
+			<span class="white--text">&copy; 2019</span>
+		</v-footer>
+	</v-app>
 </template>
 
 <script>
-/* Import packages */
-import Navbar from '@/components/Navbar'
+import VuetifyNavbar from '@/components/VuetifyNavbar';
 
 export default {
-  name: "app",
+	name: "app",
 
-  components: {
-    Navbar
-  }
+	components: {
+		VuetifyNavbar
+	}
 }
 </script>
